@@ -34,14 +34,14 @@ img {
 
 @media only screen and (min-width: 38em) {
   img {
-    float: left;
+    display: inline-block;
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 60em) {
   img {
-    float: left;
+    display: inline-block;
     width: 33.3333%;
   }
 }
