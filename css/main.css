@@ -21,6 +21,17 @@ img {
   width: 100%;
 }
 
+@media only screen and (min-width: 20em) {
+
+  img:nth-child(3) {
+    display: inline-block;
+    width: 100%;
+  }
+  img:nth-child(even) {
+    display:none;
+  }
+}
+
 @media only screen and (min-width: 38em) {
   img {
     float: left;
