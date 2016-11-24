@@ -17,12 +17,20 @@ html {
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 38em) {
   img {
-    display: none;
+    float: left;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  img {
+    float: left;
+    width: 33.3333%;
   }
 }
