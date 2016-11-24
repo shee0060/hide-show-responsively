@@ -26,20 +26,40 @@ html {
 
 @media only screen and (min-width: 25em) {
 
-  img {
+  img:nth-child(odd) {
     display: inline-block;
-    width: 50%;
+    width: 40%;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
+    width: 40%;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
+  img:nth-child(odd) {
+    display: inline-block;
+    width: 24%;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
+    width: 24%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  img {
+  img:nth-child(odd) {
     display: inline-block;
-    width: 33.3333%;
+    width: 24%;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
+    width: 24%;
   }
 }
