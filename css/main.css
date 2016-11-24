@@ -16,6 +16,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  display; inline-block;
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 20em) {
+  img {
+    display: none;
+  }
 }
